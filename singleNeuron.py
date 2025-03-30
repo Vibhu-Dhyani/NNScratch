@@ -18,6 +18,7 @@ class Neuron:
         return activationFunctionSigmoid(res)
 
 
+"""
 weight = np.array([2, 3])
 bias = 2
 
@@ -25,3 +26,4 @@ neuron = Neuron(weight, bias)
 output = neuron.feedForward(np.array([2, 3]))
 
 print(output)
+"""
