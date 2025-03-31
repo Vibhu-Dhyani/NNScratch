@@ -6,6 +6,9 @@ def activationFunctionSigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 
+print(activationFunctionSigmoid(0.8))
+
+
 # Derrivative of Sigmoid
 def derrSigmoid(x):
     fx = activationFunctionSigmoid(x)
