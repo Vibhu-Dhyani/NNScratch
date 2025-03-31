@@ -18,5 +18,7 @@ class singleLayeredNetwork:
         return o1Op
 
 
+"""
 network = singleLayeredNetwork([3, 4], 2)
-print(network.feedForward([10, 20]))
+print(network.feedForward([10, 20])
+"""

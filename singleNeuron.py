@@ -1,9 +1,6 @@
 import numpy as np
 
-
-# Creating an Activation Function
-def activationFunctionSigmoid(x):
-    return 1 / (1 + np.exp(-x))
+from utils import activationFunctionSigmoid
 
 
 # Creating a class for single Neuron
