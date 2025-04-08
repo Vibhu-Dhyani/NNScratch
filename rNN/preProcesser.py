@@ -1,9 +1,9 @@
-from dataset import test_data
+from dataset import train_data
 
 
 # Define a Vocab
 def preProcessing():
-    vocab = list(set([w for text in test_data.keys() for w in text.split(" ")]))
+    vocab = list(set([w for text in train_data.keys() for w in text.split(" ")]))
     w_to_idx = {}
     idx_to_w = {}
     for i, a in enumerate(vocab):

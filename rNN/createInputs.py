@@ -1,5 +1,4 @@
 import numpy as np
-from preProcesser import preProcessing
 
 
 def createInput(sentence, vocabsize, w_to_idx):
@@ -13,10 +12,3 @@ def createInput(sentence, vocabsize, w_to_idx):
         ip_vec[w_to_idx[word]] = 1
         input.append(ip_vec)
     return input
-
-
-idx_to_w, w_to_idx = preProcessing()
-# print(idx_to_w)
-print(w_to_idx)
-vocabsize = len(idx_to_w)
-print(createInput("i am very bad", vocabsize, w_to_idx))
